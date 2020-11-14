@@ -1,0 +1,267 @@
+﻿nav-bar
+    {
+position: sticky;
+top: 0;
+z-index: 10;
+    }
+    .navbar-nav li {
+        padding: 0 10px;
+    }
+    .navbar-nav li a {
+        float: right;
+        text-align: left;
+    }
+    #nav-bar ul li a:hover 
+    {
+        color: rgba(209, 211, 113, 0.849)!important;
+    }
+    .navbar 
+    {
+        background: #fff;
+       
+    }
+    .navbar-toggler 
+    {
+        border:none!important;
+    }
+    .nav-link 
+    {
+        color: #555!important;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .selected-lang{
+      cursor: pointer;
+      display:flex;
+      justify-content: space-between;  
+      color: #555!important;
+      background-color: rgba(209, 211, 113, 0.849)!important;
+        text-align: left;
+        position: sticky;
+       top: 0;
+      z-index: 10;
+      padding: 0 10px; 
+
+    }
+   
+    .lang-menu ul {
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+      display: none;
+    
+    }
+    .lang-menu ul li {
+      list-style: none;
+
+    }
+    .lang-menu ul li a {
+      width: 125px;
+      display: block;
+      padding: 5px 10px;
+    }
+    .lang-menu a{
+      text-decoration: none;
+      color: #555!important;
+    }
+    .lang-menu:hover ul {
+      display: block;
+    }
+    #slider {
+        width: 100%;
+            }
+    #about 
+    {
+        padding-top: 10px ;
+        padding-bottom: 50px ;
+        color:#555;
+    } 
+    h2 {
+        padding: 10px;
+        margin: 10px;
+       
+    }
+    .about-content 
+    {
+padding-top: 10px ;
+
+
+    }
+    
+#MYART
+
+{
+
+  padding-top: 50px ;
+
+   padding-bottom: 50px ;
+
+   color:#555;
+
+}
+
+h1
+
+{
+
+  text-align: center;
+
+  color:#555 !important;
+
+  padding-bottom: 10px;
+
+}
+
+h1::after
+
+{
+
+  content: "";
+
+  background: rgba(209, 211, 113, 0.849)!important;
+
+  display: block;
+
+  height: 3px;
+
+  width: 170px;
+
+  margin: 20px auto 5px;
+
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+}
+#CONTACT
+{
+
+    padding-top: 50px ;
+  
+     padding-bottom: 50px ;
+  
+     color:#555;
+  
+  }
+  
+  h3
+  
+  {
+  
+    text-align: center;
+  
+    color:#555 !important;
+  
+    padding-bottom: 10px;
+  
+  }
+  
+  h3::after
+  
+  {
+  
+    content: "";
+  
+    background: rgba(209, 211, 113, 0.849)!important;
+  
+    display: block;
+  
+    height: 3px;
+  
+    width: 170px;
+  
+    margin: 20px auto 5px;
+  
+  }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+    text-align: center;
+
+}
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+    text-align: center;
+   
+}
+  .fa-instagram {
+    background: rgba(209, 211, 113, 0.849)!important;
+    color: white;
+    text-align: center;
+    
+  }
+  .fa-whatsapp {
+    background: rgba(209, 211, 113, 0.849)!important;
+    color: white;
+    text-align: center;
+    
+  }
+  p{
+      text-align:center;
+      color:#555;
+  }
+  .contact{
+    text-align:center;
+  }
+  #footer 
+
+  {
+
+    background: rgba(209, 211, 113, 0.849);
+
+    color: #fff;
+    text-align: center;
+
+
+  }
+
+  .fa-heart-o
+
+  {
+
+    margin: 3px;
+
+    color: red;
+
+  }
+
+  .footer p 
+  {
+    text-align: center;
+  }
+  .gotopbtn{
+
+    position: fixed;
+
+    width: 50px;
+
+    height: 50px;
+
+    background: rgba(209, 211, 113, 0.849);
+
+    bottom: 40px;
+
+    right: 50px;
+
+
+
+    text-decoration: none;
+
+    text-align: center;
+
+    line-height: 50px;
+
+    color: white;
+
+    font-size: 22px;
+
+  }
+
